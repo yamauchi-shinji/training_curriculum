@@ -48,3 +48,94 @@ Entrypoint application = js/application-9afcbb5693aa87623e69.js js/application-9
 Completed 200 OK in 3426ms (Views: 3391.0ms | ActiveRecord: 7.0ms | Allocations: 33765)
 
 
+Started GET "/" for ::1 at 2020-10-05 15:39:58 +0900
+  [1m[35m (0.2ms)[0m  [1m[35mSET NAMES utf8mb4,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+Processing by CalendarsController#index as HTML
+  [1m[36mPlan Load (0.3ms)[0m  [1m[34mSELECT `plans`.* FROM `plans` WHERE `plans`.`date` BETWEEN '2020-10-05' AND '2020-10-11'[0m
+  ↳ app/controllers/calendars_controller.rb:34:in `map'
+  Rendering calendars/index.html.erb within layouts/application
+  Rendered calendars/index.html.erb within layouts/application (Duration: 1.8ms | Allocations: 1110)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 7.5ms | ActiveRecord: 0.3ms | Allocations: 10614)
+
+
+Started GET "/" for ::1 at 2020-10-05 15:39:59 +0900
+Processing by CalendarsController#index as HTML
+  [1m[36mPlan Load (0.5ms)[0m  [1m[34mSELECT `plans`.* FROM `plans` WHERE `plans`.`date` BETWEEN '2020-10-05' AND '2020-10-11'[0m
+  ↳ app/controllers/calendars_controller.rb:34:in `map'
+  Rendering calendars/index.html.erb within layouts/application
+  Rendered calendars/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 643)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 21ms (Views: 17.4ms | ActiveRecord: 0.5ms | Allocations: 5637)
+
+
+Started GET "/" for ::1 at 2020-10-05 15:39:59 +0900
+Processing by CalendarsController#index as HTML
+  [1m[36mPlan Load (0.3ms)[0m  [1m[34mSELECT `plans`.* FROM `plans` WHERE `plans`.`date` BETWEEN '2020-10-05' AND '2020-10-11'[0m
+  ↳ app/controllers/calendars_controller.rb:34:in `map'
+  Rendering calendars/index.html.erb within layouts/application
+  Rendered calendars/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 638)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 5.4ms | ActiveRecord: 0.3ms | Allocations: 5623)
+
+
+Started GET "/" for ::1 at 2020-10-05 15:39:59 +0900
+Processing by CalendarsController#index as HTML
+  [1m[36mPlan Load (0.4ms)[0m  [1m[34mSELECT `plans`.* FROM `plans` WHERE `plans`.`date` BETWEEN '2020-10-05' AND '2020-10-11'[0m
+  ↳ app/controllers/calendars_controller.rb:34:in `map'
+  Rendering calendars/index.html.erb within layouts/application
+  Rendered calendars/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 639)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 7.5ms | ActiveRecord: 0.4ms | Allocations: 5641)
+
+
+Started GET "/" for ::1 at 2020-10-05 15:39:59 +0900
+Processing by CalendarsController#index as HTML
+  [1m[36mPlan Load (0.4ms)[0m  [1m[34mSELECT `plans`.* FROM `plans` WHERE `plans`.`date` BETWEEN '2020-10-05' AND '2020-10-11'[0m
+  ↳ app/controllers/calendars_controller.rb:34:in `map'
+  Rendering calendars/index.html.erb within layouts/application
+  Rendered calendars/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 639)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 7.0ms | ActiveRecord: 0.4ms | Allocations: 5649)
+
+
+Started GET "/" for ::1 at 2020-10-05 15:40:00 +0900
+Processing by CalendarsController#index as HTML
+  [1m[36mPlan Load (0.4ms)[0m  [1m[34mSELECT `plans`.* FROM `plans` WHERE `plans`.`date` BETWEEN '2020-10-05' AND '2020-10-11'[0m
+  ↳ app/controllers/calendars_controller.rb:34:in `map'
+  Rendering calendars/index.html.erb within layouts/application
+  Rendered calendars/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 638)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 6.7ms | ActiveRecord: 0.4ms | Allocations: 5636)
+
+
+Started GET "/" for ::1 at 2020-10-05 15:40:00 +0900
+Processing by CalendarsController#index as HTML
+  [1m[36mPlan Load (0.4ms)[0m  [1m[34mSELECT `plans`.* FROM `plans` WHERE `plans`.`date` BETWEEN '2020-10-05' AND '2020-10-11'[0m
+  ↳ app/controllers/calendars_controller.rb:34:in `map'
+  Rendering calendars/index.html.erb within layouts/application
+  Rendered calendars/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 638)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 7.1ms | ActiveRecord: 0.4ms | Allocations: 5632)
+
+
+Started GET "/" for ::1 at 2020-10-05 15:40:00 +0900
+Processing by CalendarsController#index as HTML
+  [1m[36mPlan Load (0.3ms)[0m  [1m[34mSELECT `plans`.* FROM `plans` WHERE `plans`.`date` BETWEEN '2020-10-05' AND '2020-10-11'[0m
+  ↳ app/controllers/calendars_controller.rb:34:in `map'
+  Rendering calendars/index.html.erb within layouts/application
+  Rendered calendars/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 638)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 6.4ms | ActiveRecord: 0.3ms | Allocations: 5628)
+
+
+Started GET "/" for ::1 at 2020-10-05 15:40:00 +0900
+Processing by CalendarsController#index as HTML
+  [1m[36mPlan Load (0.3ms)[0m  [1m[34mSELECT `plans`.* FROM `plans` WHERE `plans`.`date` BETWEEN '2020-10-05' AND '2020-10-11'[0m
+  ↳ app/controllers/calendars_controller.rb:34:in `map'
+  Rendering calendars/index.html.erb within layouts/application
+  Rendered calendars/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 638)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17ms (Views: 14.8ms | ActiveRecord: 0.3ms | Allocations: 5640)
+
+
