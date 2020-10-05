@@ -570,3 +570,12 @@ Processing by CalendarsController#index as HTML
 Completed 200 OK in 5ms (Views: 2.9ms | ActiveRecord: 0.3ms | Allocations: 3676)
 
 
+Started GET "/" for ::1 at 2020-10-05 19:01:13 +0900
+Processing by CalendarsController#index as HTML
+  [1m[36mPlan Load (0.5ms)[0m  [1m[34mSELECT `plans`.* FROM `plans` WHERE `plans`.`date` BETWEEN '2020-10-05' AND '2020-10-11'[0m
+  ↳ app/controllers/calendars_controller.rb:34:in `map'
+  Rendering calendars/index.html.erb within layouts/application
+  Rendered calendars/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 1068)
+Completed 200 OK in 11ms (Views: 7.1ms | ActiveRecord: 0.5ms | Allocations: 5035)
+
+
